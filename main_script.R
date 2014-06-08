@@ -13,7 +13,7 @@ if (!file.exists(fileZip)) download.file(fileUrl, fileZip, method = "auto")
 if(file.exists(fileZip)){unzip(fileZip)}
 
 # read data
-hpc  <- read.csv("~/RMIT15.071x/EDA/household_power_consumption.txt", sep=";",stringsAsFactors = FALSE)
+hpc  <- read.csv("household_power_consumption.txt", sep=";",stringsAsFactors = FALSE)
 
 str(hpc)
 
