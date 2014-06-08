@@ -1,4 +1,6 @@
-# Main Script that call and all plot.R scrips 
+# Main Script that download and read file
+# All the plot.R scripts depends on this script
+
 # Project 1
 # Coursera EDA class
 

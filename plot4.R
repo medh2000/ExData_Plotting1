@@ -1,5 +1,11 @@
 # script for plot4.R
 
+
+# NOTE:
+# Before running this code, main_script.R should be run 
+# s1 contains data frame read by main_script.R
+
+
 # file for plot4.png
 png(file ="plot4.png", width = 480, height = 480)
 
